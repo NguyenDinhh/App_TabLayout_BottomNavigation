@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Fragment_2">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quá trình học tập"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:background="@drawable/background_img"
+            android:textAlignment="center">
+        </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trường Tiểu học Nguyễn Văn Bé"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center">
+    </TextView>
+    <ImageView
+        android:scaleType="fitXY"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/school_1">
+    </ImageView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trường THCS Trần Phú"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+        <ImageView
+            android:scaleType="fitXY"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/school_2">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trường THPT Nguyễn Huệ"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+        <ImageView
+            android:scaleType="fitXY"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/school_3">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trường Đại học sư phạm kĩ thuật - Đại học Đà Nẵng"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+        </TextView>
+        <ImageView
+            android:scaleType="fitXY"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/school_4">
+        </ImageView>
+
+</LinearLayout>
+</ScrollView>

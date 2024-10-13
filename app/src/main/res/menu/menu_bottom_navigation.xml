@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@drawable/ic_home"
+        android:title="Thông tin cá nhân" />
+    <item
+        android:id="@+id/menu_2"
+        android:icon="@drawable/ic_school"
+        android:title="Quá trình học tập" />
+    <item
+        android:id="@+id/menu_3"
+        android:icon="@drawable/ic_money"
+        android:title="Mục tiêu tương lai" />
+</menu>
